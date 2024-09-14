@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726341278
+::res://::1726341960
 export_presets.cfg::TextFile::-1::1726339432::0::1::::<><>::
 icon.svg::CompressedTexture2D::6336173621151962174::1722707134::1722707145::1::::<><>::
 my_icon.PNG::CompressedTexture2D::9043450454850101336::1722955984::1722955987::1::::<><>::
@@ -16,7 +16,7 @@ plugin.cfg::TextFile::-1::1722707226::0::1::::<><>::
 THIRDPARTY.md::TextFile::-1::1722707226::0::1::::<><>::
 ::res://addons/godot-git-plugin/linux/::1722707226
 ::res://addons/godot-git-plugin/macos/::1722707226
-::res://addons/godot-git-plugin/win64/::1726341272
+::res://addons/godot-git-plugin/win64/::1726341954
 ::res://assets/::1723397808
 1-bit 16px icons part-1 outlines.png::CompressedTexture2D::6674451145151673839::1722786658::1722787127::1::::<><>::
 ::res://assets/music/::1723397954
