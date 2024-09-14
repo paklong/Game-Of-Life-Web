@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://nai6ga5t18fu"
+path="res://.godot/imported/Mega Quest Remastered - Level 2.ogg-b67c3253072386163ea7847c17a6386a.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/music/Mega Quest Remastered - Level 2.ogg"
+dest_files=["res://.godot/imported/Mega Quest Remastered - Level 2.ogg-b67c3253072386163ea7847c17a6386a.oggvorbisstr"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

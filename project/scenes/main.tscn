@@ -1,0 +1,56 @@
+[gd_scene load_steps=4 format=3 uid="uid://dmfq2b3j6dqbw"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_5j3d2"]
+[ext_resource type="PackedScene" uid="uid://dh2vs8r2ygmfd" path="res://scenes/background_music.tscn" id="2_6ur1j"]
+
+[sub_resource type="Theme" id="Theme_ralo3"]
+RichTextLabel/colors/default_color = Color(1, 1, 1, 1)
+RichTextLabel/colors/font_outline_color = Color(0, 0, 0, 1)
+RichTextLabel/constants/outline_size = 6
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_5j3d2")
+
+[node name="Control" type="Control" parent="."]
+top_level = true
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1120.0
+offset_bottom = 640.0
+
+[node name="InputEdit" type="LineEdit" parent="Control"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 260.0
+offset_bottom = 51.0
+text = "Paklong Wan"
+
+[node name="SpeedEdit" type="LineEdit" parent="Control"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 20.0
+offset_top = 58.0
+offset_right = 260.0
+offset_bottom = 89.0
+placeholder_text = "Speed : 16  (1 - 16)"
+
+[node name="Stats" type="RichTextLabel" parent="Control"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -228.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = 163.0
+grow_horizontal = 0
+theme = SubResource("Theme_ralo3")
+text = "Total generations: 0
+Highest cells: 0
+Ending cells: 0
+Total score: 0"
+
+[node name="BackgroundMusic" parent="." instance=ExtResource("2_6ur1j")]
