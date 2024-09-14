@@ -1,0 +1,15 @@
+AudioStreamPlayer2D
+AudioListener2D
+LineEdit
+TextEdit
+RichTextLabel
+Timer
+Sprite2D
+Button
+TileMapLayer
+TileMap
+RayCast2D
+Control
+ColorRect
+CollisionShape2D
+Area2D
