@@ -1,9 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726342872
+::res://::1726350610
 export_presets.cfg::TextFile::-1::1726339432::0::1::::<><>::
+Icon1.png::CompressedTexture2D::1912694866904478456::1726350454::1726350454::1::::<><>::
+Icon2.png::CompressedTexture2D::8905916727973660502::1726350454::1726350454::1::::<><>::
 icon.svg::CompressedTexture2D::6336173621151962174::1722707134::1722707145::1::::<><>::
 my_icon.PNG::CompressedTexture2D::9043450454850101336::1722955984::1722955987::1::::<><>::
-Subject.png::CompressedTexture2D::539061941334608652::1726342872::1726342872::1::::<><>::
 ::res://addons/::1722788299
 ::res://addons/debug_menu/::1722788300
 debug_menu.gd::GDScript::-1::1722788299::0::1::::<>CanvasLayer<>::
@@ -17,16 +18,16 @@ plugin.cfg::TextFile::-1::1722707226::0::1::::<><>::
 THIRDPARTY.md::TextFile::-1::1722707226::0::1::::<><>::
 ::res://addons/godot-git-plugin/linux/::1722707226
 ::res://addons/godot-git-plugin/macos/::1722707226
-::res://addons/godot-git-plugin/win64/::1726342598
+::res://addons/godot-git-plugin/win64/::1726350605
 ::res://assets/::1723397808
 1-bit 16px icons part-1 outlines.png::CompressedTexture2D::6674451145151673839::1722786658::1722787127::1::::<><>::
 ::res://assets/music/::1723397954
 Mega Quest Remastered - Level 1.ogg::AudioStreamOggVorbis::862658816054678234::1723397805::1723397954::1::::<><>::
 Mega Quest Remastered - Level 2.ogg::AudioStreamOggVorbis::912996379377218690::1723397805::1723397954::1::::<><>::
-::res://scenes/::1726342733
+::res://scenes/::1726342893
 background_music.tscn::PackedScene::7707631117834835885::1723397986::0::1::::<><>::res://scripts/background_music.gd
 cell.tscn::PackedScene::3538459119666490571::1723314704::0::1::::<><>::res://scripts/cell.gd
-main.tscn::PackedScene::8012869848054041760::1726342733::0::1::::<><>::res://scripts/main.gd<>uid://dh2vs8r2ygmfd::::res://scenes/background_music.tscn
+main.tscn::PackedScene::8012869848054041760::1726342893::0::1::::<><>::res://scripts/main.gd<>uid://dh2vs8r2ygmfd::::res://scenes/background_music.tscn
 tile_map_layer.tscn::PackedScene::6222273134181839960::1723341749::0::1::::<><>::uid://bqob504lln85t::::res://scenes/cell.tscn<>res://scripts/tile_map_layer.gd
 ::res://scripts/::1726338279
 background_music.gd::GDScript::-1::1723397985::0::1::::<>AudioStreamPlayer2D<>::
